@@ -82,4 +82,12 @@ Given the non-parametric process behind MLP, there isn't much intuition to be ga
 
 The main problem encountered in this project was the need to create a custom method for splitting the data, in order to really be directing this project towards the issue of dialect identification. Recognising this need made the modelling process much more complicated, but it was a very fun process writing the custom train-test-split method and the cross-validation function, and making the model evaluation process easy to run with a custom GridSearchCV function.
 
+## Key Learnings
+
+This project gave me great practice with carrying out the entire pipeline of a data science task - from identifying a target for the project, to sourcing and cleaning the data, through to exploratory data analysis and modelling. I was also able to delve deeper into Natural Language Processing, and the ways to improve results when dealing with this format of data. 
+
+Most importantly, I learned about the complications which can arise when really aiming to build the best model for the specific aims of the project: here, genuinely attacking the issue of dialect identification rather than simply seeking high accuracy scores made life a lot more complicated, but made for a more rewarding project.
+
+## Going Forward
+
 Going forward within this problem, I would attempt to address the class imbalance issue in order that the model is truly primed to perform out-of-sample predictions based on lyrics, without its predictions being influenced class imbalance in the training data. Further, I would like to use these methods on a dialect identification task in the context of different data. For instance, on tweets. 
